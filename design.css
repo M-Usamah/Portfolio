@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Sofia");
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Lobster monospace ;
+}
+body {
+    background-color: blue;
+  }
+.container-intro{
+    background: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.profile-image{
+    width: 205px;
+    height: 205px;
+    background-color:#505050;
+    border-radius: 50%;
+    position: absolute;
+    top: 155px;
+    left: 800px;
+}
+#profileImage{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    padding: 1% 5% 1% 1%;
+}
+.intro{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 80px;
+    color: #E6E6FA;
+    text-shadow: 2px 2px #505050;
+}
+.intro h1{
+    font-size: 60px;
+}
+.intro2{
+    display:inline;
+}
+.intro h2{
+    font-size: 40px;
+}
+.intro h3{
+    font-style: italic; 
+    font-size: 45px;
+    
+}
+@media (min-width:280px) and (max-width: 550px) and (min-height: 560px) {
+    .container-intro{
+        background-size: 550px 823px;
+        height: 823px;
+        width: 550px;
+    }
+    .intro{
+        position: absolute;
+        top: 400px;
+        left: 15px;
+        padding: 38px 47px 0px 24px;
+
+    }
+    .intro h1{
+        font-size: 50px;
+        margin: 0px 0px -8px 0px;
+    }
+   .intro h2{
+    font-size: 30px;
+   }
+    .intro h3{
+    font-style: italic; 
+    font-size: 35px;
+    }
+    .profile-image{
+        top: 31%;
+        left: 26%;
+    }
+}
+@media (min-width:766px) and (max-width: 1250px) and (min-height: 560px) {
+    .container-intro{
+        background-size: 1024px 1366px;
+        height: 1366px;
+        width: 1024px;
+    }
+    .intro{
+        position: absolute;
+        top: 400px;
+        left: 40px;
+    }
+    .profile-image{
+        top: 500px;
+        left: 650px;
+        width: 305px;
+        height: 305px;
+    }
+    #profileImage{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.container-info{
+    background-color: aliceblue;   
+}
+.info{
+    text-align: center;
+    color: #292F33;
+    padding: 30px;
+    font-size: large;
+}
+ .info p{
+    font-family: 'Sofia';
+}
