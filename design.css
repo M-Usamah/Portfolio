@@ -1,9 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Lobster|Sofia");
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 *{
     margin: 0;
     padding: 0;
-    font-family:Lobster monospace ;
-}
+
+ }
+
+ .text-color{
+     color:antiquewhite
+ }
+ .Mont{
+     font-family: "Montserrat", sans-serif;
+ }
+ .sans{
+    font-family: sans-serif;
+ }
+ .container-nav{
+     background-color: gray;
+     position: fixed;
+ }
 body {
     background-color: blue;
   }
@@ -49,6 +64,77 @@ body {
     font-size: 45px;
     
 }
+
+
+.container-expert{
+    background-color: #666666;  
+    padding-top: 40px;
+    padding-bottom: 250px;
+}
+
+.expert-heading{
+    font-size: 25px;
+    text-align: center;
+}
+.row{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 450px;
+    position: absolute;
+    top: 627px;
+    left: 450px;
+    text-align: center;
+    color: #E6E6FA;
+}
+.exp_img{
+    width: 64px;
+    height: 64px;
+}
+.Skill{
+    width: 225px;
+}
+.Web{
+    width: 225px;
+}
+.exp_txt{
+    font-size: large;
+    padding: 5px 0px 5px 0px;
+}
+@media (min-width:766px) and (max-width: 1250px) and (min-height: 560px) {
+    .container-intro{
+        background-size: 1024px 1366px;
+        height: 1366px;
+        width: 1024px;
+    }
+    .intro{
+        position: absolute;
+        top: 400px;
+        left: 40px;
+    }
+    .profile-image{
+        top: 500px;
+        left: 650px;
+        width: 305px;
+        height: 305px;
+    }
+    #profileImage{
+        width: 300px;
+        height: 300px;
+    }
+    .container-expert{
+        width: 1024px;
+        padding-bottom: 280px;
+    }
+    .row{
+        position: absolute;
+        top: 1463px;
+        left: 273px;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+}
 @media (min-width:280px) and (max-width: 550px) and (min-height: 560px) {
     .container-intro{
         background-size: 550px 823px;
@@ -77,34 +163,25 @@ body {
         top: 31%;
         left: 26%;
     }
-}
-@media (min-width:766px) and (max-width: 1250px) and (min-height: 560px) {
-    .container-intro{
-        background-size: 1024px 1366px;
-        height: 1366px;
-        width: 1024px;
+    .container-expert{
+        width: 550px;
+        padding-bottom: 510px;
     }
-    .intro{
+    .row{
         position: absolute;
-        top: 400px;
-        left: 40px;
+        top: 930px;
+        left: 156px;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
-    .profile-image{
-        top: 500px;
-        left: 650px;
-        width: 305px;
-        height: 305px;
+    .Web{
+        margin-top: 20px;
     }
-    #profileImage{
-        width: 300px;
-        height: 300px;
-    }
+    
 }
 
-.container-info{
-    background-color: aliceblue;   
-}
-.info{
+/*.info{
     text-align: center;
     color: #292F33;
     padding: 30px;
@@ -112,4 +189,4 @@ body {
 }
  .info p{
     font-family: 'Sofia';
-}
+}*/
